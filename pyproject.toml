@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "src"
+version = "1.0.0"
+description = "A Poetry/Docker setup to run the python executable generator"
+authors = ["Ezequiel Reinholtz <ezequielschneiderr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+pyinstaller = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
